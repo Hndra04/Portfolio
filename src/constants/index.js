@@ -14,6 +14,9 @@ import {
   diabetest,
   python,
   gdsc,
+  music,
+  yieldcrop,
+  brain,
 } from "../assets";
 
 export const navLinks = [
@@ -159,6 +162,45 @@ const projects = [
     ],
     image: diabetest,
     source_code_link: "https://github.com/Hndra04/Diabetest",
+  },
+  {
+    name: "Brain Tumors Prediction from MRI using LMFRNet",
+    description:
+      "This project study looks into the use of Wan and Yao's lightweight image classification model, LMFRNet, for brain tumor classification using magnetic resonance imaging (MRI).",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: brain,
+    source_code_link: "",
+  },
+  {
+    name: "Music Genre Classification",
+    description:
+      "This model is designed to classifying music genre classification using feature from the music dataset, like mfcc, spectral bandwith, chroma stft, etc. Where the goal of this model is to help users to classifying a song with ease.",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: music,
+    source_code_link: "https://github.com/Hndra04/MusicGenreClassification",
+  },
+  {
+    name: "Yield crop rate prediction using machine learning",
+    description:
+      "This model is designed to predicting yield crop using few feature that may effect to crop yield product. Where the goal of this model is to help users to predict crop yield accurately.",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: yieldcrop,
+    source_code_link: "https://github.com/Hndra04/yield-crop-prediction",
   },
   {
     name: "JCC",
