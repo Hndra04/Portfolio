@@ -31,6 +31,9 @@ import tesla from "./company/tesla.png";
 import narrativenest from "./narrativenest.png";
 import jcc from "./jcc.png";
 import diabetest from "./diabetest.png";
+import brain from "./brain.jpg";
+import yieldcrop from "./yieldcrop.png";
+import music from "./music.png";
 
 export {
   logo,
@@ -63,4 +66,7 @@ export {
   narrativenest,
   python,
   gdsc,
+  brain,
+  yieldcrop,
+  music,
 };
