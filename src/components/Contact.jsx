@@ -28,39 +28,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
-    emailjs
-      .send(
-        "service_6b6a1t1",
-        "template_1nrd63s",
-        {
-          from_name: form.name,
-          to_name: "Hendra Putra",
-          from_email: form.email,
-          to_email: "hendraputra151204@gmail.com",
-          message: form.message,
-        },
-        "0ypEgR9v2V2L3-oJ1"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thankyou. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-          
-        },
-        (error) => {
-          setLoading(false);
-
-          console.log(error);
-          alert("Something went wrong.");
-        }
-      );
   };
 
   return (
