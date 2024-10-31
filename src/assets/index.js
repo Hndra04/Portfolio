@@ -32,8 +32,9 @@ import narrativenest from "./narrativenest.png";
 import jcc from "./jcc.png";
 import diabetest from "./diabetest.png";
 import brain from "./brain.jpg";
-import yieldcrop from "./yieldcrop.png";
 import music from "./music.png";
+import hology from './hology.png'
+import beatbuddy from './beatbuddy.png'
 
 export {
   logo,
@@ -67,6 +68,7 @@ export {
   python,
   gdsc,
   brain,
-  yieldcrop,
   music,
+  hology,
+  beatbuddy
 };
