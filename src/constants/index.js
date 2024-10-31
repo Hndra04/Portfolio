@@ -15,8 +15,9 @@ import {
   python,
   gdsc,
   music,
-  yieldcrop,
   brain,
+  hology,
+  beatbuddy
 } from "../assets";
 
 export const navLinks = [
@@ -25,8 +26,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "works",
-    title: "Project",
+    id: "work",
+    title: "Works",
   },
   {
     id: "contact",
@@ -190,17 +191,30 @@ const projects = [
     source_code_link: "https://github.com/Hndra04/MusicGenreClassification",
   },
   {
-    name: "Yield crop rate prediction using machine learning",
+    name: "Multi-label Image Classification",
     description:
-      "This model is designed to predicting yield crop using few feature that may effect to crop yield product. Where the goal of this model is to help users to predict crop yield accurately.",
+      "This model is designed to predicting  color and type of shirt from the image by extracting images features. This model using CNN and VGG-16 Architecture to help predicting image.",
     tags: [
       {
         name: "python",
         color: "yellow-text-gradient",
       },
     ],
-    image: yieldcrop,
-    source_code_link: "https://github.com/Hndra04/yield-crop-prediction",
+    image: hology,
+    source_code_link: "https://github.com/Hndra04/CompetitionHology7.0",
+  },
+  {
+    name: "BeatBuddy",
+    description:
+      "BeatBuddy is a music recommender system made with react & flask. The front-end made with react accept user's request and forward it to the server manage by flask containing the machine learning model.",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: beatbuddy,
+    source_code_link: "https://github.com/dewennn/BeatBuddy",
   },
   {
     name: "JCC",
