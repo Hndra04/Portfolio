@@ -34,7 +34,7 @@ import diabetest from "./diabetest.png";
 import brain from "./brain.jpg";
 import music from "./music.png";
 import hology from './hology.png'
-import beatbuddy from './beatbuddy.png'
+import beatbuddy from './beatbuddy.jpg'
 
 export {
   logo,
